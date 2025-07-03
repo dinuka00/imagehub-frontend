@@ -31,7 +31,7 @@ import { LoginCredentials, RegisterCredentials, AuthResponse, User } from '../ty
 //   };
 // };
 
-const API_BASE_URL =  'http://localhost:8080';
+const API_BASE_URL =  '/api';
 
 export const login = async (credentials: LoginCredentials): Promise<AuthResponse> => {
   try {
